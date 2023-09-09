@@ -118,9 +118,11 @@ footer {
 }
 .playstore {
   height: 1.75rem;
+  color: #000000;
 }
 .applestore {
   font-size: 2rem;
+  color: #000000;
 }
 .socials {
   display: flex;
