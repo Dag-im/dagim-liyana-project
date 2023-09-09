@@ -67,7 +67,6 @@ nav {
   background-color: var(--background);
   margin: 0 auto;
   z-index: 5;
-  background-color: red;
 }
 span {
   color: var(--accent);
