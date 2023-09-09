@@ -19,7 +19,7 @@ function Hero() {
             <a className='btn-1' href=''>
               <BiWebcam /> Book Virtual Care
             </a>
-            <a className='btn-2' href=''>
+            <a className='btn-2' href='tel:+251905007755'>
               <GoHome className='home' /> Book Home Care
             </a>
           </div>

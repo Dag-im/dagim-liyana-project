@@ -204,6 +204,9 @@ header {
   text-align: center;
   line-height: 1.375;
 }
+.header-text span {
+  color: var(--accent);
+}
 .header-text p {
   color: var(--textColor);
   font-weight: 500;
@@ -247,7 +250,7 @@ header {
   background-color: transparent;
 }
 .btn-2 {
-  color: var(--primary-400);
+  color: var(--primary-500);
   font-weight: 700;
   display: flex;
   align-items: center;
@@ -257,10 +260,10 @@ header {
   padding: 6px 0px;
 }
 .btn-2 .home {
-  font-size: 2rem;
+  font-size: 1.75rem;
 }
 .btn-2:hover {
-  color: var(--primary-600);
+  color: var(--primary-700);
 }
 .header-img {
   width: 90%;

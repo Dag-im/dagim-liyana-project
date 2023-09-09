@@ -45,7 +45,12 @@ const Services = () => {
     <section id='services'>
       <div className='services'>
         <h1>Services</h1>
-        <h2>Bringing Health Care Wherever You Are!</h2>
+        <h2>
+          Our system uses mobile application, web-based portal, and a dedicated
+          service hotline that allows smooth interaction between our service
+          providers and our clients via video calls, audio calls, and text
+          messaging.
+        </h2>
         <div className='items'>
           {services.map((service) => {
             return (

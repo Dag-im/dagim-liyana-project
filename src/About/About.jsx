@@ -40,7 +40,6 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className='about-bg'></div>
     </section>
   )
 }

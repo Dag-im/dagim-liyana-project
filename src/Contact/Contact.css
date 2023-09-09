@@ -82,9 +82,6 @@
   max-width: 400px;
   text-align: center;
 }
-.contact:hover {
-  transform: scale(0.97);
-}
 .logo-desc {
   display: flex;
   flex-direction: column;
@@ -94,9 +91,8 @@
   padding: 0rem 1rem 1rem 1rem;
 }
 .contact .logo {
-  border-radius: 50%;
   color: var(--primary-600);
-  font-size: 2rem;
+  font-size: 3rem;
   text-align: center;
   padding: 1.2rem;
   margin: 5px;

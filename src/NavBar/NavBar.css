@@ -68,7 +68,7 @@ nav {
   margin: 0 auto;
   z-index: 5;
 }
-span {
+nav span {
   color: var(--accent);
   padding-left: 1rem;
 }

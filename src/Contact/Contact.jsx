@@ -2,7 +2,7 @@ import React from 'react'
 import './Contact.css'
 import { FaPhoneAlt, FaMap } from 'react-icons/fa'
 import { HiMail } from 'react-icons/hi'
-const services = [
+const contacts = [
   {
     img: <FaMap className='logo' />,
     title: 'Address',
@@ -24,14 +24,14 @@ const Contact = () => {
     <div id='contact' className='contact-container'>
       <h1>Contact Us</h1>
       <div className='contacts'>
-        {services.map((service) => {
+        {contacts.map((contact) => {
           return (
             <div className='contact'>
               <div className='logo-desc'>
-                {service.img}
-                <h3>{service.title}</h3>
+                {contact.img}
+                <h3>{contact.title}</h3>
               </div>
-              <p className='contact-info'>{service.desc}</p>
+              <p className='contact-info'>{contact.desc}</p>
             </div>
           )
         })}
