@@ -5,9 +5,7 @@ import {
   FaInstagram,
   FaYoutube,
   FaLinkedinIn,
-  FaApple,
 } from 'react-icons/fa'
-import playstore from '../assets/playstore.svg'
 const Footer = () => {
   const year = new Date().getFullYear()
   return (
